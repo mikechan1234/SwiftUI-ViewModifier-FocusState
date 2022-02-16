@@ -1,4 +1,4 @@
-# SwiftUI-ViewModifier-FocusedState
+# SwiftUI-ViewModifier-FocusState
 
 This project builds upon: [SwiftUI-Learning-Binding-Basics](https://github.com/mikechan1234/SwiftUI-Learning-Binding-Basics)
 
