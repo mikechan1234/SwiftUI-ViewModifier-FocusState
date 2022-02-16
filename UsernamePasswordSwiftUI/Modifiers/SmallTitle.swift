@@ -16,3 +16,13 @@ struct SmallTitle: ViewModifier {
     }
     
 }
+
+extension View {
+    
+    func smallTitle() -> some View {
+        
+        modifier(SmallTitle())
+        
+    }
+    
+}

@@ -15,10 +15,8 @@
 		4C868E9B2325F46100E273A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C868E9A2325F46100E273A0 /* Preview Assets.xcassets */; };
 		4C868E9E2325F46100E273A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C868E9C2325F46100E273A0 /* LaunchScreen.storyboard */; };
 		4C868EA62325F50600E273A0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C868EA52325F50600E273A0 /* LoginView.swift */; };
-		82C360EA27BC384A0035CA82 /* TextFieldStyle+Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C360E927BC384A0035CA82 /* TextFieldStyle+Modifier.swift */; };
 		82C360EC27BC3ACC0035CA82 /* TextFieldUnderline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C360EB27BC3ACC0035CA82 /* TextFieldUnderline.swift */; };
 		82C360F027BD06410035CA82 /* SmallTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C360EF27BD06410035CA82 /* SmallTitle.swift */; };
-		82C360F227BD080A0035CA82 /* Text+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C360F127BD080A0035CA82 /* Text+Modifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +30,8 @@
 		4C868E9D2325F46100E273A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C868E9F2325F46100E273A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C868EA52325F50600E273A0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		82C360E927BC384A0035CA82 /* TextFieldStyle+Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextFieldStyle+Modifier.swift"; sourceTree = "<group>"; };
 		82C360EB27BC3ACC0035CA82 /* TextFieldUnderline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldUnderline.swift; sourceTree = "<group>"; };
 		82C360EF27BD06410035CA82 /* SmallTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallTitle.swift; sourceTree = "<group>"; };
-		82C360F127BD080A0035CA82 /* Text+Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Modifiers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				82C360EF27BD06410035CA82 /* SmallTitle.swift */,
-				82C360F127BD080A0035CA82 /* Text+Modifiers.swift */,
-				82C360E927BC384A0035CA82 /* TextFieldStyle+Modifier.swift */,
 				82C360EB27BC3ACC0035CA82 /* TextFieldUnderline.swift */,
 			);
 			path = Modifiers;
@@ -189,14 +183,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C868E922325F45A00E273A0 /* AppDelegate.swift in Sources */,
-				82C360F227BD080A0035CA82 /* Text+Modifiers.swift in Sources */,
 				4C868E942325F45A00E273A0 /* SceneDelegate.swift in Sources */,
 				82C360F027BD06410035CA82 /* SmallTitle.swift in Sources */,
 				82C360EC27BC3ACC0035CA82 /* TextFieldUnderline.swift in Sources */,
 				4C868EA62325F50600E273A0 /* LoginView.swift in Sources */,
 				4C11D3BA2329DB3F002AE659 /* LoginView+ViewModel.swift in Sources */,
 				4C868E962325F45A00E273A0 /* ContentView.swift in Sources */,
-				82C360EA27BC384A0035CA82 /* TextFieldStyle+Modifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

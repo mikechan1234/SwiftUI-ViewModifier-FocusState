@@ -23,3 +23,13 @@ struct TextFieldUnderline: TextFieldStyle {
     }
     
 }
+
+extension View {
+    
+    func underline(_ alerted: Bool) -> some View {
+        
+        textFieldStyle(TextFieldUnderline(error: alerted))
+        
+    }
+    
+}
