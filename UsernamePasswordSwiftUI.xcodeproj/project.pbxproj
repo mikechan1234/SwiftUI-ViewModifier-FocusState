@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C11D3BA2329DB3F002AE659 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C11D3B92329DB3F002AE659 /* LoginViewModel.swift */; };
+		4C11D3BA2329DB3F002AE659 /* LoginView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C11D3B92329DB3F002AE659 /* LoginView+ViewModel.swift */; };
 		4C868E922325F45A00E273A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C868E912325F45A00E273A0 /* AppDelegate.swift */; };
 		4C868E942325F45A00E273A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C868E932325F45A00E273A0 /* SceneDelegate.swift */; };
 		4C868E962325F45A00E273A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C868E952325F45A00E273A0 /* ContentView.swift */; };
@@ -15,10 +15,14 @@
 		4C868E9B2325F46100E273A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C868E9A2325F46100E273A0 /* Preview Assets.xcassets */; };
 		4C868E9E2325F46100E273A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C868E9C2325F46100E273A0 /* LaunchScreen.storyboard */; };
 		4C868EA62325F50600E273A0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C868EA52325F50600E273A0 /* LoginView.swift */; };
+		82C360EA27BC384A0035CA82 /* TextFieldStyle+Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C360E927BC384A0035CA82 /* TextFieldStyle+Modifier.swift */; };
+		82C360EC27BC3ACC0035CA82 /* TextFieldUnderline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C360EB27BC3ACC0035CA82 /* TextFieldUnderline.swift */; };
+		82C360F027BD06410035CA82 /* SmallTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C360EF27BD06410035CA82 /* SmallTitle.swift */; };
+		82C360F227BD080A0035CA82 /* Text+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C360F127BD080A0035CA82 /* Text+Modifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C11D3B92329DB3F002AE659 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		4C11D3B92329DB3F002AE659 /* LoginView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView+ViewModel.swift"; sourceTree = "<group>"; };
 		4C868E8E2325F45A00E273A0 /* UsernamePasswordSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsernamePasswordSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C868E912325F45A00E273A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C868E932325F45A00E273A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +32,10 @@
 		4C868E9D2325F46100E273A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C868E9F2325F46100E273A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C868EA52325F50600E273A0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		82C360E927BC384A0035CA82 /* TextFieldStyle+Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextFieldStyle+Modifier.swift"; sourceTree = "<group>"; };
+		82C360EB27BC3ACC0035CA82 /* TextFieldUnderline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldUnderline.swift; sourceTree = "<group>"; };
+		82C360EF27BD06410035CA82 /* SmallTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallTitle.swift; sourceTree = "<group>"; };
+		82C360F127BD080A0035CA82 /* Text+Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Modifiers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +68,13 @@
 		4C868E902325F45A00E273A0 /* UsernamePasswordSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				4C868E9F2325F46100E273A0 /* Info.plist */,
 				4C868E912325F45A00E273A0 /* AppDelegate.swift */,
 				4C868E932325F45A00E273A0 /* SceneDelegate.swift */,
-				4C868EA52325F50600E273A0 /* LoginView.swift */,
-				4C11D3B92329DB3F002AE659 /* LoginViewModel.swift */,
-				4C868E952325F45A00E273A0 /* ContentView.swift */,
+				82C360ED27BD06080035CA82 /* Views */,
+				82C360EE27BD06100035CA82 /* Modifiers */,
 				4C868E972325F46100E273A0 /* Assets.xcassets */,
 				4C868E9C2325F46100E273A0 /* LaunchScreen.storyboard */,
-				4C868E9F2325F46100E273A0 /* Info.plist */,
 				4C868E992325F46100E273A0 /* Preview Content */,
 			);
 			path = UsernamePasswordSwiftUI;
@@ -79,6 +86,35 @@
 				4C868E9A2325F46100E273A0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82C360ED27BD06080035CA82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C868E952325F45A00E273A0 /* ContentView.swift */,
+				82C360F327BD08510035CA82 /* LoginView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82C360EE27BD06100035CA82 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				82C360EF27BD06410035CA82 /* SmallTitle.swift */,
+				82C360F127BD080A0035CA82 /* Text+Modifiers.swift */,
+				82C360E927BC384A0035CA82 /* TextFieldStyle+Modifier.swift */,
+				82C360EB27BC3ACC0035CA82 /* TextFieldUnderline.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		82C360F327BD08510035CA82 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				4C868EA52325F50600E273A0 /* LoginView.swift */,
+				4C11D3B92329DB3F002AE659 /* LoginView+ViewModel.swift */,
+			);
+			path = LoginView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,7 +145,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				ORGANIZATIONNAME = UBS;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					4C868E8D2325F45A00E273A0 = {
 						CreatedOnToolsVersion = 11.0;
@@ -153,10 +189,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C868E922325F45A00E273A0 /* AppDelegate.swift in Sources */,
+				82C360F227BD080A0035CA82 /* Text+Modifiers.swift in Sources */,
 				4C868E942325F45A00E273A0 /* SceneDelegate.swift in Sources */,
+				82C360F027BD06410035CA82 /* SmallTitle.swift in Sources */,
+				82C360EC27BC3ACC0035CA82 /* TextFieldUnderline.swift in Sources */,
 				4C868EA62325F50600E273A0 /* LoginView.swift in Sources */,
-				4C11D3BA2329DB3F002AE659 /* LoginViewModel.swift in Sources */,
+				4C11D3BA2329DB3F002AE659 /* LoginView+ViewModel.swift in Sources */,
 				4C868E962325F45A00E273A0 /* ContentView.swift in Sources */,
+				82C360EA27BC384A0035CA82 /* TextFieldStyle+Modifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +336,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"UsernamePasswordSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = UsernamePasswordSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +356,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"UsernamePasswordSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = UsernamePasswordSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
